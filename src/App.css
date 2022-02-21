@@ -1,0 +1,64 @@
+body {
+  background-color: black;
+}
+
+body p {
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/*  classes */
+
+.mainContainer {
+  margin: 30px;
+}
+
+.title {
+  padding-left: 25px;
+  font-size: xx-large;
+  color: white;
+}
+
+.information  {
+  display: flex;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.list p {
+  cursor: pointer;
+}
+
+
+.locations div {
+  display: flex;
+  align-items: center;
+}
+
+.locations div li {
+  margin: 0px 10px 0px 25px;
+}
+
+.unfouces {
+  text-decoration: none;
+}
+
+.fouces {
+  text-decoration: underline;
+}
+
+#citystate {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  align-items: flex-start;
+  align-self: flex-start;
+}
